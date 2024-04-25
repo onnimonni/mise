@@ -90,6 +90,7 @@ mod tests {
         let asdf = |s, id, name| t(s, id, name, ForgeType::Asdf);
         let cargo = |s, id, name| t(s, id, name, ForgeType::Cargo);
         let npm = |s, id, name| t(s, id, name, ForgeType::Npm);
+        let vfox = |s, id, name| t(s, id, name, ForgeType::VFox);
 
         asdf("asdf:node", "node", "node");
         asdf("node", "node", "node");
@@ -97,6 +98,7 @@ mod tests {
         cargo("cargo:eza", "cargo:eza", "eza");
         npm("npm:@antfu/ni", "npm:@antfu/ni", "@antfu/ni");
         npm("npm:prettier", "npm:prettier", "prettier");
+        vfox("vfox:nodejs", "vfox:nodejs", "nodejs");
     }
 
     #[test]
@@ -113,5 +115,6 @@ mod tests {
         t("cargo:eza", "cargo-eza");
         t("npm:@antfu/ni", "npm-@antfu-ni");
         t("npm:prettier", "npm-prettier");
+        t("vfox:nodejs", "vfox-nodejs");
     }
 }
