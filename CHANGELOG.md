@@ -1,5 +1,36 @@
 # Changelog
 
+## [2024.4.9](https://github.com/jdx/mise/compare/v2024.4.8..v2024.4.9) - 2024-04-25
+
+### 🚀 Features
+
+- **(node)** support comments in .nvmrc/.node-version by [@jdx](https://github.com/jdx) in [5915ae0](https://github.com/jdx/mise/commit/5915ae0a23d322e37f22847be11638f8ba108c15)
+
+### 🐛 Bug Fixes
+
+- **(docker)** Ensure the e2e tests pass in the dev container by [@Adirelle](https://github.com/Adirelle) in [#1942](https://github.com/jdx/mise/pull/1942)
+- use mise fork of asdf-maven by Jeff Dickey in [5a01c1b](https://github.com/jdx/mise/commit/5a01c1b336a6e0a2ca0167aee6fa865318bd7f81)
+
+### 🚜 Refactor
+
+- converted just tasks in mise tasks. by [@Adirelle](https://github.com/Adirelle) in [#1948](https://github.com/jdx/mise/pull/1948)
+
+### 🔍 Other Changes
+
+- **(docker)** removed unused image by [@jdx](https://github.com/jdx) in [4150207](https://github.com/jdx/mise/commit/4150207c3464bf47207ea1c3c0959e7141ab27b8)
+- **(renovate)** ignore changes to registry/ subtree by [@jdx](https://github.com/jdx) in [c556149](https://github.com/jdx/mise/commit/c556149a88e73825306d98e3e3ea5b53692e0900)
+- remove CODEOWNERS by Jeff Dickey in [304ba17](https://github.com/jdx/mise/commit/304ba171fd95701c04beb3d2a76bde0463a54209)
+
+### 📦️ Dependency Updates
+
+- update rust crate color-print to 0.3.6 by [@renovate[bot]](https://github.com/renovate[bot]) in [#1943](https://github.com/jdx/mise/pull/1943)
+- update amannn/action-semantic-pull-request action to v5.5.0 by [@renovate[bot]](https://github.com/renovate[bot]) in [#1947](https://github.com/jdx/mise/pull/1947)
+- update rust crate demand to 1.1.1 by [@renovate[bot]](https://github.com/renovate[bot]) in [#1944](https://github.com/jdx/mise/pull/1944)
+
+### New Contributors
+
+* @Adirelle made their first contribution in [#1948](https://github.com/jdx/mise/pull/1948)
+
 ## [2024.4.8](https://github.com/jdx/mise/compare/v2024.4.7..v2024.4.8) - 2024-04-23
 
 ### 🚀 Features
